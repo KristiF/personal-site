@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Head from "next/head";
 import { Drawer } from "@mui/material";
+
 export const metadata: Metadata = {
     title: "Kristi Francis - Software Engineer",
     icons: {
