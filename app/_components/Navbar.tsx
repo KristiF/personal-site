@@ -21,8 +21,8 @@ const Navbar: FC<NavbarProps> = ({ className }) => {
 
     const links = [
         { href: "/", text: "Start" },
-        { href: "/about", text: "About me" },
         { href: "/work", text: "Work" },
+        { href: "/about", text: "About me" },
     ];
     const router = useRouter();
     useEffect(() => {
