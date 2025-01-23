@@ -30,7 +30,7 @@ const Navbar: FC<NavbarProps> = ({ className }) => {
             const scrollY = window.scrollY;
             const pageHeight =
                 document.documentElement.scrollHeight - window.innerHeight;
-            setScrolled(scrollY > pageHeight * 0.2);
+            setScrolled(scrollY > pageHeight * 0.01);
         };
 
         window.addEventListener("scroll", handleScrollChange);

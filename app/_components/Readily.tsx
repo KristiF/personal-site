@@ -6,7 +6,7 @@ const Readily: FC = () => {
     return (
         <div className="flex flex-col">
             <div className="flex flex-col sm:flex-row justify-evenly gap-8 items-center">
-                <div className="relative h-80 w-full">
+                <div className="relative h-60 w-full">
                     <Image
                         src="/images/readily-logo.png"
                         alt="Readly logo"
@@ -24,13 +24,10 @@ const Readily: FC = () => {
                         API and scraped using the Newspaper Python Library. The
                         articles were then summarized and categorized using
                         natural language processing.
-                        <a href="https://github.com/KristiF/Readily">
-                            Github link.
-                        </a>
                     </p>
                 </div>
             </div>
-            <div className="relative h-80 w-full mb-8">
+            <div className="relative h-80 w-full my-8">
                 <Image
                     src="/images/readily-app.webp"
                     alt="Readly app showcase"
