@@ -24,6 +24,7 @@ const Tetris: FC = () => {
                         library. It's a little buggy and not very polished, but
                         it was a great learning experience for me.
                     </p>
+                    <a href="https://github.com/KristiF/Tetris">Github link.</a>
                 </div>
             </div>
         </div>

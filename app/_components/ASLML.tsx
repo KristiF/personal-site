@@ -31,6 +31,12 @@ const ASLML: FC = () => {
                         and trained one of the machine learning models using
                         Python and Tensorflow.
                     </p>
+                    <p>
+                        The github repository for the project is still private
+                        as it's on an enterprise account for KTH and owned by
+                        another group member. I will update this page with a
+                        link to the repository as soon as it becomes public.
+                    </p>
                 </div>
             </div>
         </div>

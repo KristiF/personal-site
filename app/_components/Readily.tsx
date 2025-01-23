@@ -24,6 +24,9 @@ const Readily: FC = () => {
                         API and scraped using the Newspaper Python Library. The
                         articles were then summarized and categorized using
                         natural language processing.
+                        <a href="https://github.com/KristiF/Readily">
+                            Github link.
+                        </a>
                     </p>
                 </div>
             </div>
