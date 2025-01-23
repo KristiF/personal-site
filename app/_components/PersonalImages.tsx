@@ -29,7 +29,7 @@ const PersonalImages: FC = () => {
     return (
         <div className="flex flex-col">
             <h2 className="text-white font-happy text-center text-xl sm:text-2xl mt-8">
-                Some images from my life:
+                Some photos from my life:
             </h2>
             <ImageGallery items={meImages} />
         </div>

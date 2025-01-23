@@ -6,14 +6,14 @@ const ASLML: FC = () => {
     return (
         <div className="flex flex-col">
             <div className="flex flex-col sm:flex-row justify-evenly gap-8 items-center">
-                <div className="relative h-80 w-full">
-                    <Image
-                        src="/images/asl_ml.png"
-                        alt="Chip logo"
-                        layout="fill"
-                        objectFit="contain"
-                    />
-                </div>
+                <Image
+                    src="/images/asl_ml.webp"
+                    alt="ASL ML project showcase"
+                    layout="intrinsic"
+                    width={800}
+                    height={600}
+                />
+
                 <div className="flex flex-col text-lg text-justify text-white gap-8 max-w-4">
                     <p>
                         ASL_ML was a group project for the university course
@@ -30,6 +30,12 @@ const ASLML: FC = () => {
                         learning and computer vision. I processed the dataset
                         and trained one of the machine learning models using
                         Python and Tensorflow.
+                    </p>
+                    <p>
+                        The github repository for the project is still private
+                        as it's on an enterprise account for KTH and owned by
+                        another group member. I will update this page with a
+                        link to the repository as soon as it becomes public.
                     </p>
                 </div>
             </div>

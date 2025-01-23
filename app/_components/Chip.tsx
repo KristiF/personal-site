@@ -8,7 +8,7 @@ const Chip: FC = () => {
             <div className="flex flex-col sm:flex-row justify-evenly gap-8 items-center">
                 <div className="relative h-80 w-full">
                     <Image
-                        src="/images/chip-logo.png"
+                        src="/images/chip-logo.webp"
                         alt="Chip logo"
                         layout="fill"
                         objectFit="contain"

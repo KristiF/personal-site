@@ -24,12 +24,15 @@ const Readily: FC = () => {
                         API and scraped using the Newspaper Python Library. The
                         articles were then summarized and categorized using
                         natural language processing.
+                        <a href="https://github.com/KristiF/Readily">
+                            Github link.
+                        </a>
                     </p>
                 </div>
             </div>
             <div className="relative h-80 w-full mb-8">
                 <Image
-                    src="/images/readily-app.png"
+                    src="/images/readily-app.webp"
                     alt="Readly app showcase"
                     layout="fill"
                     objectFit="contain"
