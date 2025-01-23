@@ -6,14 +6,14 @@ const ASLML: FC = () => {
     return (
         <div className="flex flex-col">
             <div className="flex flex-col sm:flex-row justify-evenly gap-8 items-center">
-                <div className="relative h-80 w-full">
-                    <Image
-                        src="/images/asl_ml.webp"
-                        alt="Chip logo"
-                        layout="fill"
-                        objectFit="contain"
-                    />
-                </div>
+                <Image
+                    src="/images/asl_ml.webp"
+                    alt="ASL ML project showcase"
+                    layout="intrinsic"
+                    width={800} // or any appropriate width
+                    height={600} // maintain the correct aspect ratio
+                />
+
                 <div className="flex flex-col text-lg text-justify text-white gap-8 max-w-4">
                     <p>
                         ASL_ML was a group project for the university course
