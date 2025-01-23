@@ -24,7 +24,7 @@ export default function RootLayout({
 }) {
     return (
         <html lang="en">
-            <body className={`${happy.variable} font-happy`}>
+            <body className={`${happy.variable} font-happy pb-10`}>
                 <Navbar />
                 {children}
             </body>

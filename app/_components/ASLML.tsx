@@ -10,8 +10,8 @@ const ASLML: FC = () => {
                     src="/images/asl_ml.webp"
                     alt="ASL ML project showcase"
                     layout="intrinsic"
-                    width={800} // or any appropriate width
-                    height={600} // maintain the correct aspect ratio
+                    width={800}
+                    height={600}
                 />
 
                 <div className="flex flex-col text-lg text-justify text-white gap-8 max-w-4">

@@ -46,7 +46,9 @@ const Navbar: FC<NavbarProps> = ({ className }) => {
             position="sticky"
             elevation={0}
             style={{
-                backgroundColor: scrolled ? "#4FC0A4" : "transparent",
+                backgroundColor: scrolled
+                    ? "rgba(253,187,45,1)"
+                    : "transparent",
                 transition: "background-color 0.3s ease-in-out",
             }}
             className={className}
