@@ -32,7 +32,7 @@ const Readily: FC = () => {
             </div>
             <div className="relative h-80 w-full mb-8">
                 <Image
-                    src="/images/readily-app.png"
+                    src="/images/readily-app.webp"
                     alt="Readly app showcase"
                     layout="fill"
                     objectFit="contain"

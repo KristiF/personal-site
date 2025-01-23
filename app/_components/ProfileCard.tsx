@@ -12,7 +12,7 @@ const ProfileCard: FC<ProfileCardProps> = ({ className, style }) => {
                 alt="personal photo"
                 layout="fill"
                 objectFit="cover"
-                src={"/images/personal-photo.jpg"}
+                src={"/images/personal-photo.webp"}
                 className="rounded-full"
             />
         </div>

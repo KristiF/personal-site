@@ -8,7 +8,7 @@ const ASLML: FC = () => {
             <div className="flex flex-col sm:flex-row justify-evenly gap-8 items-center">
                 <div className="relative h-80 w-full">
                     <Image
-                        src="/images/asl_ml.png"
+                        src="/images/asl_ml.webp"
                         alt="Chip logo"
                         layout="fill"
                         objectFit="contain"
