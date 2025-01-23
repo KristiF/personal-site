@@ -7,26 +7,14 @@ interface ProfileCardProps {
 
 const ProfileCard: FC<ProfileCardProps> = ({ className, style }) => {
     return (
-        <div
-            style={style}
-            className={"flex flex-col items-center mr-10 " + className}
-        >
+        <div style={style} className={className}>
             <Image
-                className="rounded-4xl"
                 alt="personal photo"
-                width={300}
-                height={300}
+                layout="fill"
+                objectFit="cover"
                 src={"/images/personal-photo.jpg"}
+                className="rounded-full"
             />
-            <h1 className="sm:text-md md:text-4xl font-bold text-white">
-                Kristi Francis
-            </h1>
-            <h2 className="sm:text-sm md:text-2xl font-bold text-white">
-                Software Engineer
-            </h2>
-            <h2 className="sm:text-sm md:text-2xl font-bold text-white">
-                M.Sc. in C.Sci. at KTH
-            </h2>
         </div>
     );
 };
