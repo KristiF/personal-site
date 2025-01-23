@@ -39,7 +39,6 @@ const Navbar: FC<NavbarProps> = ({ className }) => {
 
     const handlePageChange = (page: string) => {
         setCurrentPage(page);
-        // In the future, replace with page navigation logic (e.g., React Router)
     };
 
     return (
