@@ -21,8 +21,8 @@ const Navbar: FC<NavbarProps> = ({ className }) => {
 
     const links = [
         { href: "/", text: "Start" },
-        { href: "/about", text: "About me" },
         { href: "/work", text: "Work" },
+        { href: "/about", text: "About me" },
     ];
     const router = useRouter();
     useEffect(() => {
@@ -39,7 +39,6 @@ const Navbar: FC<NavbarProps> = ({ className }) => {
 
     const handlePageChange = (page: string) => {
         setCurrentPage(page);
-        // In the future, replace with page navigation logic (e.g., React Router)
     };
 
     return (

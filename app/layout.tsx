@@ -11,7 +11,7 @@ const happy = localFont({
 });
 
 export const metadata: Metadata = {
-    title: "Kristi Francis - Software Engineer",
+    title: "Kristi Francis - Personal site",
     icons: {
         icon: "/images/favicon.ico",
     },

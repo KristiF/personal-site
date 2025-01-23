@@ -11,32 +11,7 @@ html {
   background-attachment: fixed;
 }
 
-.scrollable-menu {
-    position: relative;
-    overflow-x: auto;
-    white-space: nowrap;
-    -webkit-overflow-scrolling: touch;
+.image-gallery {
+  max-width: 85%;
+  margin: 0 auto;
 }
-
-.scrollable-menu::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 30px;
-    height: 100%;
-    background: linear-gradient(to left, rgba(0, 0, 0, 0.5), transparent);
-    pointer-events: none;
-}
-
-.scrollable-menu::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 30px;
-    height: 100%;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), transparent);
-    pointer-events: none;
-}
-

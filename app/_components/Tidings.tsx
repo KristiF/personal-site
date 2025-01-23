@@ -27,9 +27,10 @@ const Tidings: FC = () => {
             thumbnail: "/images/tidings-app-5.png",
         },
     ];
+
     return (
-        <div className="flex flex-col">
-            <div className="flex flex-col sm:flex-row justify-evenly gap-8 items-center">
+        <div className="flex flex-col w-full">
+            <div className="flex flex-col sm:flex-row flex-wrap justify-evenly gap-8 items-center w-full">
                 <div className="relative h-80 w-full">
                     <Image
                         src="/images/tidings-logo.png"
@@ -38,7 +39,7 @@ const Tidings: FC = () => {
                         objectFit="contain"
                     />
                 </div>
-                <div className="flex flex-col text-lg text-justify text-white gap-8 max-w-4">
+                <div className="flex flex-col text-lg text-left text-white gap-8 max-w-screen-sm w-full break-words">
                     <p>
                         Tidings was a startup with the aim of revolutionizing
                         news consumption with an AI-based news aggregator app.
@@ -61,21 +62,20 @@ const Tidings: FC = () => {
                         the startup grew, I took on additional responsibilities
                         as the tech team expanded with interns. My role evolved
                         to include:
-                        <ul>
+                        <ul className="list-disc pl-6">
                             <li>
-                                • Team Leadership: Mentoring interns,
-                                structuring goals, managing tasks, monitoring
-                                progress, and ensuring deadlines were met.
+                                Team Leadership: Mentoring interns, structuring
+                                goals, managing tasks, and ensuring deadlines
+                                were met.
                             </li>
                             <li>
-                                • Architecture: Designing and implementing
-                                scalable solutions for the backend and frontend.
-                                Implementing CI/CD pipelines.
+                                Architecture: Designing and implementing
+                                scalable solutions for the backend and frontend,
+                                including CI/CD pipelines.
                             </li>
                             <li>
-                                • Review: Conducting code reviews, ensuring code
-                                quality, mainting standards, and providing
-                                feedback.
+                                Review: Conducting code reviews, maintaining
+                                standards, and providing feedback.
                             </li>
                         </ul>
                     </p>
@@ -84,7 +84,9 @@ const Tidings: FC = () => {
             <h2 className="text-white mt-4 font-happy text-center text-xl sm:text-2xl">
                 Promotional images of the Tidings app:
             </h2>
-            <ImageGallery items={appImages} />
+            <div className="max-w-50 py-4">
+                <ImageGallery items={appImages} />
+            </div>
         </div>
     );
 };

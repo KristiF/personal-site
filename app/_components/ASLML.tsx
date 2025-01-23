@@ -16,15 +16,20 @@ const ASLML: FC = () => {
                 </div>
                 <div className="flex flex-col text-lg text-justify text-white gap-8 max-w-4">
                     <p>
-                        I started working on Tidings in April 2023. It was a
-                        startup focused on revolutionizing the news industry
-                        with an AI-based news aggregator app. The app featured
-                        personalized news with articles from a wide range of
-                        sources, either scraped or obtained through APIs. The
-                        articles were summarized using large language models. It
-                        also featured a personal news podcast, which was
-                        generated using text-to-speech and natural language
-                        processing.
+                        ASL_ML was a group project for the university course
+                        "DM1590 Machine Learning for Media Technology". The
+                        project utilized the MediaPipe library to create a
+                        dataset that could be used to train a machine learning
+                        model to recognize American Sign Language (ASL) letters.
+                        The dataset consisted of images of hands signing the ASL
+                        alphabet, which were processed using the MediaPipe
+                        library to extract the hand landmarks. The extracted
+                        landmarks were then used to train different machine
+                        learning models to recognize the ASL letters. This was a
+                        really fun project that taught me a lot about machine
+                        learning and computer vision. I processed the dataset
+                        and trained one of the machine learning models using
+                        Python and Tensorflow.
                     </p>
                 </div>
             </div>
