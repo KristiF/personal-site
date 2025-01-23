@@ -16,15 +16,15 @@ const Chip: FC = () => {
                 </div>
                 <div className="flex flex-col text-lg text-justify text-white gap-8 max-w-4">
                     <p>
-                        I started working on Tidings in April 2023. It was a
-                        startup focused on revolutionizing the news industry
-                        with an AI-based news aggregator app. The app featured
-                        personalized news with articles from a wide range of
-                        sources, either scraped or obtained through APIs. The
-                        articles were summarized using large language models. It
-                        also featured a personal news podcast, which was
-                        generated using text-to-speech and natural language
-                        processing.
+                        Chip was a startup with the idea of offering a service
+                        that unlocked news articles for a small fee, allowing
+                        users to read premium content without a subscription. I
+                        worked with Chip as an intern, where worked on a variety
+                        of tasks. I built the frontend using NextJS, and built a
+                        news scraper using Python and Selenium. I also created a
+                        Reddit bot to generate traffic to the website, which
+                        resulted in more than 100,000 unique visitors after just
+                        a few weeks.
                     </p>
                 </div>
             </div>
