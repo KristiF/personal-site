@@ -9,6 +9,7 @@ import {
 } from "@mui/material";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import { useRouter } from "next/navigation";
 
 interface NavbarProps {
     className?: string;
@@ -16,14 +17,14 @@ interface NavbarProps {
 
 const Navbar: FC<NavbarProps> = ({ className }) => {
     const [scrolled, setScrolled] = useState(false);
-    const [currentPage, setCurrentPage] = useState("start");
+    const [currentPage, setCurrentPage] = useState("/");
 
     const links = [
-        { href: "start", text: "Start" },
-        { href: "about", text: "About Me" },
-        { href: "portfolio", text: "Portfolio" },
+        { href: "/", text: "Start" },
+        { href: "/about", text: "About me" },
+        { href: "/work", text: "Work" },
     ];
-
+    const router = useRouter();
     useEffect(() => {
         const handleScrollChange = () => {
             const scrollY = window.scrollY;
@@ -63,7 +64,8 @@ const Navbar: FC<NavbarProps> = ({ className }) => {
                         <ToggleButton
                             key={link.href}
                             value={link.href}
-                            className={`text-lg md:text-base sm:text-sm text-white ${
+                            onClick={() => router.push(link.href)}
+                            className={`font-happy text-lg md:text-base sm:text-sm text-white ${
                                 currentPage === link.href
                                     ? "bg-white text-black"
                                     : ""
@@ -72,6 +74,7 @@ const Navbar: FC<NavbarProps> = ({ className }) => {
                                 border: "none",
                                 padding: "10px 20px",
                                 borderRadius: "8px",
+                                textTransform: "none",
                             }}
                         >
                             {link.text}
