@@ -4,6 +4,7 @@ import Chip from "../_components/Chip";
 import Readily from "../_components/Readily";
 import ASLML from "../_components/ASLML";
 import Tetris from "../_components/Tetris";
+import GitHubIcon from "@mui/icons-material/GitHub";
 
 export default function Work() {
     return (
@@ -26,9 +27,23 @@ export default function Work() {
                     August 2022 - April 2023
                 </h1>
                 <Chip />
-                <h1 className="text-4xl font-happy text-white text-center mt-5">
-                    Readily
-                </h1>
+                <div>
+                    <a
+                        href="https://github.com/KristiF/Readily"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex flex-row items-center gap-4 mt-5"
+                    >
+                        <h1 className="text-4xl font-happy text-white text-center">
+                            Readily
+                        </h1>
+
+                        <GitHubIcon
+                            className="text-white"
+                            style={{ fontSize: "1.5rem" }}
+                        />
+                    </a>
+                </div>
                 <h1 className="text-lg font-happy text-white text-center">
                     Spring 2023
                 </h1>
@@ -40,9 +55,23 @@ export default function Work() {
                     Spring 2022
                 </h1>
                 <ASLML />
-                <h1 className="text-4xl font-happy text-white text-center mt-5">
-                    Tetris
-                </h1>
+                <div>
+                    <a
+                        href="https://github.com/KristiF/Tetris"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex flex-row items-center gap-4 mt-5"
+                    >
+                        <h1 className="text-4xl font-happy text-white text-center">
+                            Tetris
+                        </h1>
+
+                        <GitHubIcon
+                            className="text-white"
+                            style={{ fontSize: "1.5rem" }}
+                        />
+                    </a>
+                </div>
                 <h1 className="text-lg font-happy text-white text-center">
                     Autumn 2018
                 </h1>
