@@ -2,16 +2,37 @@
 @tailwind components;
 @tailwind utilities;
 
-@import "~react-image-gallery/styles/css/image-gallery.css";
-
-html {
-  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
-  scroll-behavior: smooth;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+/* Warm ivory ground / charcoal ink — chosen to sit under the monochrome portrait
+   without competing with it. Dark mode mirrors the same warmth. */
+:root {
+  --bg: #f7f3ed;
+  --glow: #e8ddcc;
+  --text: #1c1a18;
+  --muted: #6b645c;
+  --accent: #7b5e3b;
+  --accent-hover: #5c4429;
+  --shadow: rgba(28, 26, 24, 0.42);
 }
 
-.image-gallery {
-  max-width: 85%;
-  margin: 0 auto;
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #16140f;
+    --glow: #2a2419;
+    --text: #f3eee6;
+    --muted: #a39b8e;
+    --accent: #cfa972;
+    --accent-hover: #e3c48f;
+    --shadow: rgba(0, 0, 0, 0.65);
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
